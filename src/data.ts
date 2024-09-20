@@ -11,6 +11,12 @@ export interface Pacientes {
   edad: number;
 }
 
+export interface NumeroPacientesPorEspecialidad {
+  medicoDeFamilia: number;
+  pediatria: number;
+  cardiologia: number;
+}
+
 export const pacientes: Pacientes[] = [
   {
     id: 1,
@@ -68,7 +74,7 @@ export const pacientes: Pacientes[] = [
     apellidos: "Kid",
     sexo: "Male",
     temperatura: 39.8,
-    frecuenciaCardiaca: 80,
+    frecuenciaCardiaca: 10,
     especialidad: "Pediatra",
     edad: 11,
   },
